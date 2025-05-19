@@ -44,12 +44,12 @@ To configure:
 
 
 ## FILE STRUCTURE
-├── app.py                  # Main Streamlit app
-├── utils.py                # Question generation logic using Claude Haiku
-├── requirements.txt        # Python dependencies
-├── candidate_data.csv      # Appends candidate details
-├── *_qa.txt                # Saves questions & answers per candidate
-├── README.md               # Project documentation
+1. app.py                  # Main Streamlit app
+2.  utils.py                # Question generation logic using Claude Haiku
+3. requirements.txt        # Python dependencies
+4. candidate_data.csv      # Appends candidate details
+5. *_qa.txt                # Saves questions & answers per candidate
+6. README.md               # Project documentation
 
 ## How to run
 ```bash
@@ -70,8 +70,8 @@ api_key = "your-openrouter-api-key"
 ```
 
 ## Model Info
-LLM Used: Claude Haiku
-Provider: OpenRouter.ai
-Model Endpoint Used: anthropic/claude-3-haiku
-API Base URL: https://openrouter.ai/api/v1
+1. LLM Used: Claude Haiku
+2. Provider: OpenRouter.ai
+3. Model Endpoint Used: anthropic/claude-3-haiku
+4. API Base URL: https://openrouter.ai/api/v1
 
